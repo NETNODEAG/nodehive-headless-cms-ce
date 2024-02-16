@@ -6,6 +6,10 @@
 
 NodeHive provides a seamless content management experience, empowering you to create, manage, and publish content with ease. More at www.nodehive.com.
 
+## Documentation
+
+docs.nodehive.com
+
 ## WIP
 
 This repo is currently developing. If you want to get an update, when we are ready, consider subscribing our Newsletter.
