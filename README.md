@@ -8,7 +8,7 @@ NodeHive provides a seamless content management experience, empowering you to cr
 
 ## Documentation
 
-docs.nodehive.com
+https://docs.nodehive.com
 
 ## WIP
 
