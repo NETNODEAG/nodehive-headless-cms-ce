@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Description: Install Nodehive CE
+## Usage: install-nodehive-ce
+## Example: "ddev install-nodehive-ce"
+
+# Make sure the files folder exists.
+cd /var/www/html/docroot/sites/default && mkdir files
+
+# Use the normal installer script
+composer install-nodehive-ce
