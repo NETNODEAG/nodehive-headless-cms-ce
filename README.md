@@ -2,9 +2,13 @@
 
 <img src="https://docs.nodehive.com/nodehive-dashboard.png">
 
+This repository is dedicated to the headless backend. For a quick start on your frontend with NextJS 14, visit our starter template at https://github.com/NETNODEAG/nodehive-nextjs-starter.
+
 ## What is NodeHive Headless CMS?
 
-NodeHive provides a seamless content management experience, empowering you to create, manage, and publish content with ease. More at www.nodehive.com.
+NodeHive Headless CMS is the premier headless solution built on top of Drupal. As an open-core digital platform, NodeHive offers a comprehensive suite for multi site/channel, content management, media handling, and editorial planning. Designed to facilitate the operation of multiple websites from a single backend, it provides all the necessary tools for seamless content management at scale.
+
+More at www.nodehive.com and our YouTube playlist https://www.youtube.com/playlist?list=PLx8ET0RIaWG2NcK6TiM7fC3TOOkejYNzF
 
 ## Documentation
 
@@ -36,9 +40,9 @@ https://docs.nodehive.com
   6. Site should now be set-up correctly, you can access it via configured local url in your LAMP stack.
 
 
-## WIP
+## Newsletter
 
-This repo is currently developing. If you want to get an update, when we are ready, consider subscribing our Newsletter.
+To stay informed about future developments, consider subscribing to our newsletter.
 
 -> www.nodehive.com/newsletter
 
