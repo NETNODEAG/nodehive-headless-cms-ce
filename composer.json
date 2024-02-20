@@ -131,8 +131,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-          "[ $COMPOSER_DEV_MODE -eq 0 ] || cghooks add --ignore-lock",
-          "if type drush; then drush updb && drush beekeeper:install && drush beekeeper:default-config:install --preset=saas; fi"
+          "[ $COMPOSER_DEV_MODE -eq 0 ] || cghooks add --ignore-lock"
         ],
         "post-update-cmd": "[ $COMPOSER_DEV_MODE -eq 0 ] || cghooks update",
         "install-nodehive-ce": "./scripts/install/install.sh"
