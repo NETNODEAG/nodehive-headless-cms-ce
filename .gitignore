@@ -1,0 +1,16 @@
+/.phpunit.cache
+/node_modules
+/vendor
+/web
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+npm-debug.log
+composer.lock
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/.editorconfig
+/.gitattributes

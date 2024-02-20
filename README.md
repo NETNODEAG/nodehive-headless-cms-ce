@@ -10,6 +10,19 @@ NodeHive provides a seamless content management experience, empowering you to cr
 
 https://docs.nodehive.com
 
+## Installation
+
+### Install using DDEV
+
+[todo]
+
+### Manual installation
+
+  1. `composer create-project netnodeag/nodehive-headless-cms-ce nodehive-ce`
+
+  2. Run `composer install-nodehive-ce`
+
+
 ## WIP
 
 This repo is currently developing. If you want to get an update, when we are ready, consider subscribing our Newsletter.
