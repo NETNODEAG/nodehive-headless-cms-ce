@@ -31,6 +31,7 @@ https://docs.nodehive.com
   2. Run `composer install`
   3. Adjust the `settings.php` so that Drupal can be installed (see https://www.drupal.org/docs/user_guide/en/install-requirements.html)
   4. Run `composer install-nodehive-ce`
+  5. Site should now be set-up correctly, you can access it via configured local url in your LAMP stack.
 
 
 ## WIP
