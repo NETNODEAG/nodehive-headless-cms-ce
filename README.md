@@ -6,7 +6,9 @@ This repository is dedicated to the headless backend. For a quick start on your 
 
 ## What is NodeHive Headless CMS?
 
-NodeHive provides a seamless content management experience, empowering you to create, manage, and publish content with ease. More at www.nodehive.com.
+NodeHive Headless CMS is the premier headless solution built on top of Drupal. As an open-core digital platform, NodeHive offers a comprehensive suite for multi site/channel, content management, media handling, and editorial planning. Designed to facilitate the operation of multiple websites from a single backend, it provides all the necessary tools for seamless content management at scale.
+
+More at www.nodehive.com and our YouTube playlist https://www.youtube.com/playlist?list=PLx8ET0RIaWG2NcK6TiM7fC3TOOkejYNzF
 
 ## Documentation
 
