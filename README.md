@@ -17,7 +17,7 @@ https://docs.nodehive.com
   Prerequisite:
    - DDEV installed (https://ddev.readthedocs.io/en/stable/)
 
-1.  Clone the repository
+1.  git clone https://github.com/NETNODEAG/nodehive-headless-cms-ce
 2. `ddev start`
 3. `ddev install-nodehive-ce`
 4. Your site is now available at https://nodehive-ce.ddev.site
