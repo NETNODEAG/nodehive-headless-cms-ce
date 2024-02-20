@@ -14,13 +14,23 @@ https://docs.nodehive.com
 
 ### Install using DDEV
 
-[todo]
+  Prerequisite:
+   - DDEV installed (https://ddev.readthedocs.io/en/stable/)
+
+1. `composer create-project netnodeag/nodehive-headless-cms-ce nodehive-ce`
+2. `ddev start`
+3. `ddev install-nodehive-ce`
+4. Your site is now available at https://nodehive-ce.ddev.site
 
 ### Manual installation
 
-  1. `composer create-project netnodeag/nodehive-headless-cms-ce nodehive-ce`
+  Prerequisite:
+   - A working LAMP stack
 
-  2. Run `composer install-nodehive-ce`
+  1. `composer create-project netnodeag/nodehive-headless-cms-ce nodehive-ce`
+  2. Run `composer install`
+  3. Adjust the `settings.php` so that Drupal can be installed (see https://www.drupal.org/docs/user_guide/en/install-requirements.html)
+  4. Run `composer install-nodehive-ce`
 
 
 ## WIP
