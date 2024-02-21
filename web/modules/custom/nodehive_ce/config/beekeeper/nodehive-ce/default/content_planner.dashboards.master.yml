@@ -1,0 +1,26 @@
+configuration:
+  name: 'Master Dashboard'
+  width: 0
+  roles:
+    - authenticated
+  widgets:
+    2810f748-3376-4062-9cd2-49bfdb8601d5:
+      plugin_id: node_hive_quick_links_block
+      title: 'NodeHive Quick Links'
+      uuid: 2810f748-3376-4062-9cd2-49bfdb8601d5
+      widget_name: 'NodeHive Quick Links'
+      weight: '2'
+      configured: false
+      plugin_specific_config: null
+      colspan: colspan-6
+      dashboard_id: master
+    f001325d-8387-4749-b377-ab4a003eb9e6:
+      plugin_id: node_hive_quick_links_content_model_block
+      title: 'NodeHive Content Model'
+      uuid: f001325d-8387-4749-b377-ab4a003eb9e6
+      widget_name: 'NodeHive Content Model'
+      weight: '2'
+      configured: false
+      plugin_specific_config: null
+      colspan: colspan-6
+      dashboard_id: master

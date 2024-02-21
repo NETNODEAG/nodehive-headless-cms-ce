@@ -1,0 +1,5 @@
+status: true
+dependencies: {  }
+id: article
+label: Article
+color: '#0074bd'

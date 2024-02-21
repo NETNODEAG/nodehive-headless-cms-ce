@@ -1,0 +1,9 @@
+uuid: 313b99b4-040c-42b6-bfef-51829d460f08
+langcode: en
+status: true
+dependencies: {  }
+id: nodehive_content_editor
+label: 'NodeHive Content editor'
+weight: 4
+is_admin: null
+permissions: {  }

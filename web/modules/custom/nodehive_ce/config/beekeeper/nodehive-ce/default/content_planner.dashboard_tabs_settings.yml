@@ -1,0 +1,21 @@
+dashboards:
+  -
+    dashboard_id: master
+    enabled: true
+    weight: -10
+  -
+    dashboard_id: master
+    enabled: true
+    weight: -10
+  -
+    dashboard_id: master
+    enabled: true
+    weight: -10
+  -
+    dashboard_id: master
+    enabled: true
+    weight: -10
+  -
+    dashboard_id: master
+    enabled: true
+    weight: -10
