@@ -67,6 +67,6 @@ echo -e "\r\n"
 echo -e "${GREEN}### Installation complete,  you can now log-in using username: ${YELLOW}admin${NC} ${GREEN}and password:${NC} ${YELLOW}admin${NC} ${GREEN}###${NC}"
 
 echo -e "\r\n"
-echo -e "${CYAN}# Visit www.netnode.ch and docs.nodehive.com for further information. #${NC}"
+echo -e "${CYAN}# Visit www.nodehive.com and docs.nodehive.com for further information. #${NC}"
 echo -e "${CYAN}## Happy Headless Coding and greets from the NETNODE team – www.netnode.ch. ##${NC}"
 
