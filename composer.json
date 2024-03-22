@@ -94,6 +94,7 @@
         "drupal/site_settings": "^1.20",
         "drupal/svg_image": "^3.0",
         "drupal/symfony_mailer": "^1.2",
+        "drupal/url_redirect": "^3.0",
         "drupal/views_bulk_operations": "^4.2",
         "drupal/webform": "^6.2@beta",
         "drupal/webform_rest": "^4.0",
