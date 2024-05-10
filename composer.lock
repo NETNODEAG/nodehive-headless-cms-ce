@@ -5689,7 +5689,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/nodehive_core.git",
-                "reference": "91f7e6e524fd312d9f74f7698a7319ed2852ef88"
+                "reference": "9d20ddc801f8ae4755e235472120fb6eca665ed4"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9.0 || ^10",
@@ -5703,7 +5703,7 @@
                 },
                 "drupal": {
                     "version": "1.0.x-dev",
-                    "datestamp": "1715335570",
+                    "datestamp": "1715336021",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
