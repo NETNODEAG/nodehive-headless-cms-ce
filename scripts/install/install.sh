@@ -55,21 +55,6 @@ echo -e "\r\n"
 echo -e "${CYAN}### Nodehive install -> DONE ###${NC}"
 
 echo -e "\r\n"
-echo -e "${GREEN}### RUN: Set up settings.nodehive.php ###${NC}"
-touch "$DRUPAL_SETTINGS_NODEHIVE_FILE"
-
-echo -e 'if (file_exists($app_root . \x27/\x27 . $site_path . \x27/settings.nodehive.php\x27)) {\n  include $app_root . \x27/\x27 . $site_path . \x27/settings.nodehive.php\x27;\n}' >> "$DRUPAL_SETTINGS_FILE"
-echo "<?php" >> "$DRUPAL_SETTINGS_NODEHIVE_FILE"
-
-echo -e "${CYAN}### Create settings.nodehive.php -> DONE ###${NC}"
-
-echo -e "\r\n"
-echo -e "${GREEN}### RUN: Create and set up private directory ###${NC}"
-mkdir private
-echo "\$settings['file_private_path'] = '../private';" >> "$DRUPAL_SETTINGS_NODEHIVE_FILE"
-echo -e "${CYAN}### Create and set up private directory -> DONE ###${NC}"
-
-echo -e "\r\n"
 echo -e "${GREEN}### RUN: Set up JWT key ###${NC}"
 openssl genrsa 2048 > ./private/jwt.key
 echo -e "${CYAN}### Set up JWT key -> DONE ###${NC}"
