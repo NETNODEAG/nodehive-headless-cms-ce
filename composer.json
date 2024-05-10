@@ -53,7 +53,6 @@
         "drupal/exif_orientation": "^1.4",
         "drupal/field_formatter_class": "^1.6",
         "drupal/field_group": "^3.4",
-        "drupal/flood_control": "^2.3",
         "drupal/focal_point": "^2.0",
         "drupal/gin": "3.x-dev@dev",
         "drupal/gin_login": "^2.0",

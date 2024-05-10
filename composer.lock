@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7baef653db34c769b0b3b51a759f0667",
+    "content-hash": "aeae20443c151c000ddcd70168121953",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3795,63 +3795,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/flexible_permissions",
                 "issues": "https://drupal.org/project/issues/flexible_permissions"
-            }
-        },
-        {
-            "name": "drupal/flood_control",
-            "version": "2.3.3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/flood_control.git",
-                "reference": "2.3.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/flood_control-2.3.3.zip",
-                "reference": "2.3.3",
-                "shasum": "51ff0fa2d5e6df675e32b276465b4ba17a666f22"
-            },
-            "require": {
-                "drupal/core": "^9 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.3.3",
-                    "datestamp": "1695975407",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9 || ^10 || ^11"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "batigolix",
-                    "homepage": "https://www.drupal.org/user/22175"
-                },
-                {
-                    "name": "Dave Reid",
-                    "homepage": "https://www.drupal.org/user/53892"
-                },
-                {
-                    "name": "fabianderijk",
-                    "homepage": "https://www.drupal.org/user/278745"
-                }
-            ],
-            "description": "Provides administration possibilities for hidden flood control variables",
-            "homepage": "https://www.drupal.org/project/flood_control",
-            "support": {
-                "source": "https://git.drupalcode.org/project/flood_control"
             }
         },
         {
