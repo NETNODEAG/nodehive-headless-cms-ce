@@ -32,6 +32,7 @@ yarn-error.log
 /web/sites/*/files
 /web/sites/*/private
 /private
+/jwt
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
