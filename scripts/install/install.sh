@@ -56,12 +56,7 @@ echo -e "${CYAN}### Nodehive install -> DONE ###${NC}"
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Set up settings.nodehive.php ###${NC}"
-if [ ! -f "$DRUPAL_SETTINGS_NODEHIVE_FILE" ]; then
-    touch "$DRUPAL_SETTINGS_NODEHIVE_FILE"
-else
-    rm  "$DRUPAL_SETTINGS_NODEHIVE_FILE" || true
-    touch "$DRUPAL_SETTINGS_NODEHIVE_FILE"
-fi
+touch "$DRUPAL_SETTINGS_NODEHIVE_FILE"
 
 echo -e 'if (file_exists($app_root . \x27/\x27 . $site_path . \x27/settings.nodehive.php\x27)) {\n  include $app_root . \x27/\x27 . $site_path . \x27/settings.nodehive.php\x27;\n}' >> "$DRUPAL_SETTINGS_FILE"
 echo "<?php" >> "$DRUPAL_SETTINGS_NODEHIVE_FILE"
