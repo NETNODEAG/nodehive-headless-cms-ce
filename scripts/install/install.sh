@@ -56,7 +56,8 @@ echo -e "${CYAN}### Nodehive install -> DONE ###${NC}"
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Set up JWT key ###${NC}"
-openssl genrsa 2048 > ./private/jwt.key
+mkdir jwt
+openssl genrsa 2048 > ./jwt/jwt.key
 echo -e "${CYAN}### Set up JWT key -> DONE ###${NC}"
 
 echo -e "\r\n"
