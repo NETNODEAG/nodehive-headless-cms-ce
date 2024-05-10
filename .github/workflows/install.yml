@@ -54,25 +54,11 @@ jobs:
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
-      - name: Configure Drupal database
+      - name: Configure Drupal settings.
         run: |
-          DB_CONFIG="
-          \$databases['default']['default'] = [
-            'database' => 'db',
-            'username' => 'db',
-            'password' => 'db',
-            'prefix' => '',
-            'host' => '127.0.0.1',
-            'port' => '3306',
-            'driver' => 'mysql',
-          ];
-          "
-          # Specify the path to the settings.php file
-          FILE_PATH="./web/sites/default/settings.php"
-          # Append the configuration to the end of the settings.php
-          echo "$DB_CONFIG" >> $FILE_PATH
-          cat $FILE_PATH
+          rm ${GITHUB_WORKSPACE}/web/sites/default/settings.php
+          cp ${GITHUB_WORKSPACE}/.github/config/settings.php ${GITHUB_WORKSPACE}/web/sites/default/settings.php
 
-      # - name: Run install script
-      #   run: |
-      #     composer install-nodehive-ce
+      - name: Run install script
+        run: |
+          composer install-nodehive-ce
