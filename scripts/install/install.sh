@@ -17,24 +17,24 @@ echo -e "${CYAN}### composer install -> DONE ###${NC}\n"
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Drupal install ###${NC}"
-drush site:install --account-name=admin --account-pass=admin -y
+./vendor/bin/drush site:install --account-name=admin --account-pass=admin -y
 echo -e "${CYAN}### Drupal install -> DONE ###${NC}\n"
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Enable Beekeeper module ###${NC}"
-drush pm:enable nodehive_core_beekeeper -y
+./vendor/bin/drush pm:enable nodehive_core_beekeeper -y
 echo -e "${CYAN}### Enable Beekeeper -> DONE ###${NC}\n"
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Install Nodehive CE module ###${NC}"
-drush pm-enable nodehive_ce -y
+./vendor/bin/drush pm-enable nodehive_ce -y
 echo -e "\r\n"
 echo -e "${CYAN}### Install Nodehive CE module -> DONE ###${NC}"
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Nodehive install ###${NC}"
-drush beekeeper:install
-drush beekeeper:install --preset=nodehive-ce
+./vendor/bin/drush beekeeper:install
+./vendor/bin/drush beekeeper:install --preset=nodehive-ce
 echo -e "\r\n"
 echo -e "${CYAN}### Nodehive install -> DONE ###${NC}"
 
