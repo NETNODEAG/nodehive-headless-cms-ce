@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Color codes
 GREEN="\033[0;32m"
 YELLOW="\033[1;33m"
