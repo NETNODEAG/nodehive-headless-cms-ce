@@ -59,7 +59,7 @@ echo -e "${GREEN}### RUN: Set up settings.nodehive.php ###${NC}"
 if [ ! -f "$DRUPAL_SETTINGS_NODEHIVE_FILE" ]; then
     touch "$DRUPAL_SETTINGS_NODEHIVE_FILE"
 else
-    rm  "$DRUPAL_SETTINGS_NODEHIVE_FILE"
+    rm  "$DRUPAL_SETTINGS_NODEHIVE_FILE" || true
     touch "$DRUPAL_SETTINGS_NODEHIVE_FILE"
 fi
 
