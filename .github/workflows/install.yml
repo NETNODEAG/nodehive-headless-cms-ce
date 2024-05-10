@@ -64,4 +64,4 @@ jobs:
 
       - name: Run install script
         run: |
-          composer install-nodehive-ce
+          ${GITHUB_WORKSPACE}/install/install.sh --skip-composer

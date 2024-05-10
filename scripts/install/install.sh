@@ -12,10 +12,24 @@ NC="\033[0m" # No Color
 DRUPAL_SETTINGS_NODEHIVE_FILE="./web/sites/default/settings.nodehive.php"
 DRUPAL_SETTINGS_FILE="./web/sites/default/settings.php"
 
+# Flag variables
+SKIP_COMPOSER=false
+
+# Parse command line options
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        -s|--skip-composer) SKIP_COMPOSER=true ;;
+        *) echo "Unknown parameter passed: $1"; exit 1 ;;
+    esac
+    shift
+done
+
 echo -e "\r\n"
-echo -e "${GREEN}### RUN: composer install ###${NC}"
-composer install --no-dev --no-interaction
-echo -e "${CYAN}### composer install -> DONE ###${NC}\n"
+if [ "$SKIP_COMPOSER" = false ]; then
+    echo -e "${GREEN}### RUN: composer install ###${NC}"
+    composer install --no-dev --no-interaction
+    echo -e "${CYAN}### composer install -> DONE ###${NC}\n"
+fi
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Drupal install ###${NC}"
