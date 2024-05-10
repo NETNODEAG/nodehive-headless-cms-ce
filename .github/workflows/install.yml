@@ -60,7 +60,6 @@ jobs:
 
       - name: Configure Drupal settings.
         run: |
-          rm ${GITHUB_WORKSPACE}/web/sites/default/settings.php
           cp ${GITHUB_WORKSPACE}/.github/config/settings.php ${GITHUB_WORKSPACE}/web/sites/default/settings.php
 
       - name: Run install script
