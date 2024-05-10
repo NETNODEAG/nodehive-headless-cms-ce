@@ -64,7 +64,6 @@ jobs:
             'prefix' => '',
             'host' => '127.0.0.1',
             'port' => '3306',
-            'namespace' => 'Drupal\\\\Core\\\\Database\\\\Driver\\\\mysql',
             'driver' => 'mysql',
           ];
           "
@@ -72,7 +71,8 @@ jobs:
           FILE_PATH="./web/sites/default/settings.php"
           # Append the configuration to the end of the settings.php
           echo "$DB_CONFIG" >> $FILE_PATH
+          cat $FILE_PATH
 
-      - name: Run install script
-        run: |
-          composer install-nodehive-ce
+      # - name: Run install script
+      #   run: |
+      #     composer install-nodehive-ce
