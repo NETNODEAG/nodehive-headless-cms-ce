@@ -54,6 +54,10 @@ jobs:
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: ${{ runner.os }}-composer-
 
+      - name: Install dependencies
+        run: |
+          composer install
+
       - name: Configure Drupal settings.
         run: |
           rm ${GITHUB_WORKSPACE}/web/sites/default/settings.php
