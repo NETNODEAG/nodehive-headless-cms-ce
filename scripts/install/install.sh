@@ -56,9 +56,15 @@ echo -e "${CYAN}### Nodehive install -> DONE ###${NC}"
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Set up JWT key ###${NC}"
-mkdir jwt
-openssl genrsa 2048 > ./jwt/jwt.key
+mkdir private
+openssl genrsa 2048 > ./private/jwt.key
 echo -e "${CYAN}### Set up JWT key -> DONE ###${NC}"
+
+echo -e "\r\n"
+echo -e "${GREEN}### RUN: Set up roles ###${NC}"
+drush user:role:add 'nodehive_content_admin' admin
+echo -e "${CYAN}### Set up roles -> DONE ###${NC}"
+
 
 echo -e "\r\n"
 echo -e "${GREEN}### Installation complete,  you can now log-in using username: ${YELLOW}admin${NC} ${GREEN}and password:${NC} ${YELLOW}admin${NC} ${GREEN}###${NC}"
