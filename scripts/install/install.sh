@@ -62,7 +62,7 @@ echo -e "${CYAN}### Set up JWT key -> DONE ###${NC}"
 
 echo -e "\r\n"
 echo -e "${GREEN}### RUN: Set up roles ###${NC}"
-drush user:role:add 'nodehive_content_admin' admin
+./vendor/bin/drush user:role:add 'nodehive_content_admin' admin
 echo -e "${CYAN}### Set up roles -> DONE ###${NC}"
 
 
