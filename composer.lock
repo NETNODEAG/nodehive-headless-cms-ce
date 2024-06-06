@@ -5632,7 +5632,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/nodehive_core.git",
-                "reference": "9d20ddc801f8ae4755e235472120fb6eca665ed4"
+                "reference": "b92ddb3f178c570192a2c0455d4a71711b3c95f2"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9.0 || ^10",
@@ -5646,7 +5646,7 @@
                 },
                 "drupal": {
                     "version": "1.0.x-dev",
-                    "datestamp": "1715336021",
+                    "datestamp": "1717676749",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -5658,6 +5658,10 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "Cryt1c",
+                    "homepage": "https://www.drupal.org/user/3412741"
+                },
                 {
                     "name": "lukas.fischer",
                     "homepage": "https://www.drupal.org/user/204430"
