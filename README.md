@@ -1,14 +1,21 @@
 # NodeHive Headless CMS CE
 
-<img src="https://netnode.nodehive.app/sites/default/files/2024-05/nodehive_spaces.png" style="max-width:800px">
-
-This repository is dedicated to the headless backend. For a quick start on your frontend with NextJS 14, visit our starter template at https://github.com/NETNODEAG/nodehive-nextjs-starter.
-
 ## What is NodeHive Headless CMS?
 
-NodeHive Headless CMS is the premier headless solution built on top of Drupal. As an open-core digital platform, NodeHive offers a comprehensive suite for multi site/channel, content management, media handling, and editorial planning. Designed to facilitate the operation of multiple websites from a single backend, it provides all the necessary tools for seamless content management at scale.
+NodeHive headless CMS is a headless composable platform that serves as your central commerce, marketing, communication and customer engagement hub.
+
+## Features
+- One backend, multiple websites
+- Visual Editor
+- Advanced Content Modelling
+- Paul AI
+- Dashboards
+- Content Calendar
+- ... and much more
 
 More at www.nodehive.com and our YouTube playlist https://www.youtube.com/playlist?list=PLx8ET0RIaWG2NcK6TiM7fC3TOOkejYNzF
+
+<img src="https://netnode.nodehive.app/sites/default/files/2024-05/nodehive_spaces.png" style="max-width:800px">
 
 ## Documentation
 
