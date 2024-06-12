@@ -47,7 +47,7 @@ Prerequisite: A working LAMP stack
 composer create-project netnodeag/nodehive-headless-cms-ce nodehive-ce
 cd nodehive-ce
 composer install
-# Adjust the `settings.php` so that Drupal can be installed (see https://www.drupal.org/docs/user_guide/en/install-requirements.html)
+# Adjust the `settings.php` so that Drupal can be installed [Drupal Docs](https://www.drupal.org/docs/user_guide/en/install-requirements.html)
 composer install-nodehive-ce
 ```
 Site should now be set-up correctly, you can access it via configured local url in your LAMP stack.
