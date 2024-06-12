@@ -4,6 +4,8 @@
 
 NodeHive headless CMS is a headless composable platform that serves as your central commerce, marketing, communication and customer engagement hub.
 
+<img src="https://netnode.nodehive.app/sites/default/files/2024-05/nodehive_spaces.png" style="max-width:800px">
+
 ## Features
 - One backend, multiple websites
 - Visual Editor
@@ -15,11 +17,14 @@ NodeHive headless CMS is a headless composable platform that serves as your cent
 
 More at www.nodehive.com and our YouTube playlist https://www.youtube.com/playlist?list=PLx8ET0RIaWG2NcK6TiM7fC3TOOkejYNzF
 
-<img src="https://netnode.nodehive.app/sites/default/files/2024-05/nodehive_spaces.png" style="max-width:800px">
+Newsletter: To stay informed about future developments, consider subscribing to our newsletter.
+
+www.nodehive.com/newsletter
+
 
 ## Documentation
 
-https://docs.nodehive.com
+Visit https://docs.nodehive.com for extended developer documentation.
 
 ## Installation
 
@@ -45,11 +50,3 @@ https://docs.nodehive.com
   4. Adjust the `settings.php` so that Drupal can be installed (see https://www.drupal.org/docs/user_guide/en/install-requirements.html)
   5. Run `composer install-nodehive-ce`
   6. Site should now be set-up correctly, you can access it via configured local url in your LAMP stack.
-
-
-## Newsletter
-
-To stay informed about future developments, consider subscribing to our newsletter.
-
--> www.nodehive.com/newsletter
-
