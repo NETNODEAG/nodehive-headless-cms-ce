@@ -2,7 +2,9 @@
 
 ## What is NodeHive Headless CMS?
 
-NodeHive headless CMS is a headless composable platform that serves as your central commerce, marketing, communication and customer engagement hub.
+NodeHive Headless CMS is a headless composable platform that serves as your central commerce, marketing, communication and customer engagement hub. NodeHive is built on top of the wide spread Drupal CMS Framework and extends Drupal with advanced headless features.
+
+This repository is the offical NodeHive Headless CMS Community Edition. The makers of NodeHive also offer [a paid SaaS version of NodeHive Headless CMS](https://www.nodehive.com/saas-pricing) as well as enterprise support.
 
 <img src="https://netnode.nodehive.app/sites/default/files/2024-05/nodehive_spaces.png" style="max-width:800px">
 
@@ -17,9 +19,9 @@ NodeHive headless CMS is a headless composable platform that serves as your cent
 
 ## Important links:
 - www.nodehive.com
-- docs.nodehive.com
+- [docs.nodehive.com](https://docs.nodehive.com)
 - [YouTube playlist](https://www.youtube.com/playlist?list=PLx8ET0RIaWG2NcK6TiM7fC3TOOkejYNzF) 
-- [Sign the Newsletter nodehive.com/newsletter to stay updated](www.nodehive.com/newsletter) 
+- [Sign the Newsletter nodehive.com/newsletter to stay updated](https://www.nodehive.com/newsletter) 
 
 
 ## Documentation
