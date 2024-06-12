@@ -1,6 +1,6 @@
 # NodeHive Headless CMS CE
 
-<img src="https://docs.nodehive.com/nodehive-dashboard.png">
+<img src="https://netnode.nodehive.app/sites/default/files/2024-05/nodehive_spaces.png" style="max-width:800px">
 
 This repository is dedicated to the headless backend. For a quick start on your frontend with NextJS 14, visit our starter template at https://github.com/NETNODEAG/nodehive-nextjs-starter.
 
