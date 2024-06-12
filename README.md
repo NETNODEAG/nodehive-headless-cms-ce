@@ -15,11 +15,11 @@ NodeHive headless CMS is a headless composable platform that serves as your cent
 - Content Calendar
 - ... and much more
 
-More at www.nodehive.com and our YouTube playlist https://www.youtube.com/playlist?list=PLx8ET0RIaWG2NcK6TiM7fC3TOOkejYNzF
-
-Newsletter: To stay informed about future developments, consider subscribing to our newsletter.
-
-www.nodehive.com/newsletter
+## Important links:
+- www.nodehive.com
+- docs.nodehive.com
+- [YouTube playlist](https://www.youtube.com/playlist?list=PLx8ET0RIaWG2NcK6TiM7fC3TOOkejYNzF) 
+- [Sign the Newsletter nodehive.com/newsletter to stay updated](www.nodehive.com/newsletter) 
 
 
 ## Documentation
