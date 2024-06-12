@@ -21,7 +21,7 @@ This repository is the offical NodeHive Headless CMS Community Edition. The make
 - www.nodehive.com - product website
 - [docs.nodehive.com](https://docs.nodehive.com) - developer docs
 - [YouTube playlist](https://www.youtube.com/playlist?list=PLx8ET0RIaWG2NcK6TiM7fC3TOOkejYNzF) - updates and tutorials about NodeHive Headless CMS
-- [Sign the Newsletter nodehive.com/newsletter to stay updated](https://www.nodehive.com/newsletter) 
+- [nodehive.com/newsletter](https://www.nodehive.com/newsletter) - Sign the Newsletter to stay updated
 
 ## Installation
 
