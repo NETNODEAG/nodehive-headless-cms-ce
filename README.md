@@ -29,14 +29,16 @@ This repository is the offical NodeHive Headless CMS Community Edition. The make
 
 ### Install using DDEV
 
-  Prerequisite:
-   - DDEV installed (https://ddev.readthedocs.io/en/stable/)
+Prerequisite:
+- DDEV installed (https://ddev.readthedocs.io/en/stable/)
 
-1. `git clone https://github.com/NETNODEAG/nodehive-headless-cms-ce`
-2. `cd nodehive-headless-cms-ce`
-3. `ddev start`
-4. `ddev install-nodehive-ce`
-5. Your site is now available at https://nodehive-ce.ddev.site
+```
+git clone https://github.com/NETNODEAG/nodehive-headless-cms-ce
+cd nodehive-headless-cms-ce
+ddev start
+ddev install-nodehive-ce
+```
+Your site is now available at https://nodehive-ce.ddev.site
 
 ### Manual installation
 
