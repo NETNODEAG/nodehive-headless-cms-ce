@@ -29,8 +29,7 @@ This repository is the offical NodeHive Headless CMS Community Edition. The make
 
 ### Install using DDEV
 
-Prerequisite:
-- DDEV installed (https://ddev.readthedocs.io/en/stable/)
+Prerequisite: DDEV installed (https://ddev.readthedocs.io/en/stable/)
 
 ```
 git clone https://github.com/NETNODEAG/nodehive-headless-cms-ce
@@ -42,12 +41,13 @@ Your site is now available at https://nodehive-ce.ddev.site
 
 ### Manual installation
 
-  Prerequisite:
-   - A working LAMP stack
+Prerequisite: A working LAMP stack
 
-  1. `composer create-project netnodeag/nodehive-headless-cms-ce nodehive-ce`
-  2. `cd nodehive-ce`
-  3. Run `composer install`
-  4. Adjust the `settings.php` so that Drupal can be installed (see https://www.drupal.org/docs/user_guide/en/install-requirements.html)
-  5. Run `composer install-nodehive-ce`
-  6. Site should now be set-up correctly, you can access it via configured local url in your LAMP stack.
+```
+composer create-project netnodeag/nodehive-headless-cms-ce nodehive-ce
+cd nodehive-ce
+composer install
+# Adjust the `settings.php` so that Drupal can be installed (see https://www.drupal.org/docs/user_guide/en/install-requirements.html)
+composer install-nodehive-ce
+```
+Site should now be set-up correctly, you can access it via configured local url in your LAMP stack.
