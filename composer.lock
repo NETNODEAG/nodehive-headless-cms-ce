@@ -1781,17 +1781,17 @@
         },
         {
             "name": "drupal/automatic_updates",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/automatic_updates.git",
-                "reference": "3.1.1"
+                "reference": "3.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/automatic_updates-3.1.1.zip",
-                "reference": "3.1.1",
-                "shasum": "fa8e2c8272ee489c6c1cea1093f349653b0ff05f"
+                "url": "https://ftp.drupal.org/files/projects/automatic_updates-3.1.2.zip",
+                "reference": "3.1.2",
+                "shasum": "ff51db1a90c4d65661fd001d0f2ad4aef57ee469"
             },
             "require": {
                 "composer-runtime-api": "^2.1",
@@ -1799,6 +1799,10 @@
                 "ext-json": "*",
                 "php-tuf/composer-stager": "^2-rc2",
                 "symfony/console": "^6.2 || ^7"
+            },
+            "conflict": {
+                "php-tuf/composer-stager": ">2-rc2",
+                "symfony/process": ">7.1.0"
             },
             "require-dev": {
                 "colinodell/psr-testlogger": "^1.2",
@@ -1810,8 +1814,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.1.1",
-                    "datestamp": "1716998317",
+                    "version": "3.1.2",
+                    "datestamp": "1717686464",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2712,26 +2716,26 @@
         },
         {
             "name": "drupal/ctools",
-            "version": "4.0.4",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ctools.git",
-                "reference": "4.0.4"
+                "reference": "4.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ctools-4.0.4.zip",
-                "reference": "4.0.4",
-                "shasum": "4a2474eb2fd525b2add2db0e855c135ba7f0fb70"
+                "url": "https://ftp.drupal.org/files/projects/ctools-4.1.0.zip",
+                "reference": "4.1.0",
+                "shasum": "69f5889cf557df9e55519390e6a95cfa31b67874"
             },
             "require": {
-                "drupal/core": "^9.3 || ^10"
+                "drupal/core": "^9.5 || ^10 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.0.4",
-                    "datestamp": "1684299878",
+                    "version": "4.1.0",
+                    "datestamp": "1718144949",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2920,20 +2924,20 @@
         },
         {
             "name": "drupal/diff",
-            "version": "1.4.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/diff.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/diff-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "8f1e95e6c7f576999c5b2880023de2c2aaaf99b3"
+                "url": "https://ftp.drupal.org/files/projects/diff-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "d282bdf3350ac71f95b38576a9f397bdbab8d249"
             },
             "require": {
-                "drupal/core": "^9.3 || ^10 || ^11",
+                "drupal/core": "^10 || ^11",
                 "mkalkbrenner/php-htmldiff-advanced": "~0.0.8",
                 "php": "^8.1"
             },
@@ -2950,8 +2954,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1717130431",
+                    "version": "8.x-1.7",
+                    "datestamp": "1718073570",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3862,7 +3866,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "4836c75000ed8ade58f42247b3c84184b648c129"
+                "reference": "cae4e88a0ffd2b133d6cc3b54c47499dd622bf72"
             },
             "require": {
                 "drupal/core": "^9 || ^10 || ^11",
@@ -3874,8 +3878,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-rc10+21-dev",
-                    "datestamp": "1716837595",
+                    "version": "8.x-3.0-rc10+38-dev",
+                    "datestamp": "1718228849",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -5607,7 +5611,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/nodehive_core.git",
-                "reference": "b92ddb3f178c570192a2c0455d4a71711b3c95f2"
+                "reference": "823aa0c3ccbe64c46bfa497549b9b3224fe47a63"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9.0 || ^10",
@@ -5621,7 +5625,7 @@
                 },
                 "drupal": {
                     "version": "1.0.x-dev",
-                    "datestamp": "1717676749",
+                    "datestamp": "1718190729",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -6073,21 +6077,21 @@
         },
         {
             "name": "drupal/project_browser",
-            "version": "1.0.0-beta5",
+            "version": "1.0.0-beta6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/project_browser.git",
-                "reference": "1.0.0-beta5"
+                "reference": "1.0.0-beta6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/project_browser-1.0.0-beta5.zip",
-                "reference": "1.0.0-beta5",
-                "shasum": "7c27e46d45a5c5087c7f619d691e28f44c2c2334"
+                "url": "https://ftp.drupal.org/files/projects/project_browser-1.0.0-beta6.zip",
+                "reference": "1.0.0-beta6",
+                "shasum": "0a718b79203880c279dc0c7beb2d2dd20975e817"
             },
             "require": {
                 "composer/semver": "^3.2",
-                "drupal/core": "^10",
+                "drupal/core": "^10 || ^11",
                 "ext-simplexml": "*",
                 "guzzlehttp/guzzle": "^6 || ^7",
                 "php": ">=8.1"
@@ -6097,13 +6101,13 @@
             },
             "require-dev": {
                 "colinodell/psr-testlogger": "^1.2",
-                "drupal/automatic_updates": "3.0.x-dev"
+                "drupal/automatic_updates": "^3.1.2"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-beta5",
-                    "datestamp": "1693847826",
+                    "version": "1.0.0-beta6",
+                    "datestamp": "1717688458",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -9874,16 +9878,16 @@
         },
         {
             "name": "php-tuf/composer-stager",
-            "version": "v2.0.0-rc3",
+            "version": "v2.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-tuf/composer-stager.git",
-                "reference": "52c02a3f3490436d1e5bf5bb348179a1333932c3"
+                "reference": "bf028457313c237f7db9faf876411449c2f0ee52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-tuf/composer-stager/zipball/52c02a3f3490436d1e5bf5bb348179a1333932c3",
-                "reference": "52c02a3f3490436d1e5bf5bb348179a1333932c3",
+                "url": "https://api.github.com/repos/php-tuf/composer-stager/zipball/bf028457313c237f7db9faf876411449c2f0ee52",
+                "reference": "bf028457313c237f7db9faf876411449c2f0ee52",
                 "shasum": ""
             },
             "require": {
@@ -9895,7 +9899,7 @@
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
-                "infection/infection": "^0.27.0 || ^0.28.0 || ^0.29.0",
+                "infection/infection": "^0.27.0 || ^0.28.0",
                 "phpbench/phpbench": "^1.2",
                 "phpro/grumphp-shim": "^2.0",
                 "phpspec/prophecy": "^1.17",
@@ -9947,7 +9951,7 @@
                 "issues": "https://github.com/php-tuf/composer-stager/issues",
                 "source": "https://github.com/php-tuf/composer-stager"
             },
-            "time": "2024-06-06T01:50:17+00:00"
+            "time": "2024-05-23T21:55:34+00:00"
         },
         {
             "name": "phpowermove/docblock",
@@ -10413,16 +10417,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.3",
+            "version": "v0.12.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73"
+                "reference": "2fd717afa05341b4f8152547f142cd2f130f6818"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73",
-                "reference": "b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/2fd717afa05341b4f8152547f142cd2f130f6818",
+                "reference": "2fd717afa05341b4f8152547f142cd2f130f6818",
                 "shasum": ""
             },
             "require": {
@@ -10486,9 +10490,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.3"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.4"
             },
-            "time": "2024-04-02T15:57:53+00:00"
+            "time": "2024-06-10T01:18:23+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -14125,16 +14129,16 @@
         },
         {
             "name": "composer/class-map-generator",
-            "version": "1.3.2",
+            "version": "1.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/class-map-generator.git",
-                "reference": "acd227952154850d0bb7d65caa4f9edf9cd806a7"
+                "reference": "b1b3fd0b4eaf3ddf3ee230bc340bf3fff454a1a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/acd227952154850d0bb7d65caa4f9edf9cd806a7",
-                "reference": "acd227952154850d0bb7d65caa4f9edf9cd806a7",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/b1b3fd0b4eaf3ddf3ee230bc340bf3fff454a1a3",
+                "reference": "b1b3fd0b4eaf3ddf3ee230bc340bf3fff454a1a3",
                 "shasum": ""
             },
             "require": {
@@ -14178,7 +14182,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/class-map-generator/issues",
-                "source": "https://github.com/composer/class-map-generator/tree/1.3.2"
+                "source": "https://github.com/composer/class-map-generator/tree/1.3.4"
             },
             "funding": [
                 {
@@ -14194,28 +14198,28 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-31T19:45:56+00:00"
+            "time": "2024-06-12T14:13:04+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "2.7.6",
+            "version": "2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "fabd995783b633829fd4280e272284b39b6ae702"
+                "reference": "291942978f39435cf904d33739f98d7d4eca7b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/fabd995783b633829fd4280e272284b39b6ae702",
-                "reference": "fabd995783b633829fd4280e272284b39b6ae702",
+                "url": "https://api.github.com/repos/composer/composer/zipball/291942978f39435cf904d33739f98d7d4eca7b23",
+                "reference": "291942978f39435cf904d33739f98d7d4eca7b23",
                 "shasum": ""
             },
             "require": {
                 "composer/ca-bundle": "^1.0",
-                "composer/class-map-generator": "^1.0",
+                "composer/class-map-generator": "^1.3.3",
                 "composer/metadata-minifier": "^1.0",
                 "composer/pcre": "^2.1 || ^3.1",
-                "composer/semver": "^3.2.5",
+                "composer/semver": "^3.3",
                 "composer/spdx-licenses": "^1.5.7",
                 "composer/xdebug-handler": "^2.0.2 || ^3.0.3",
                 "justinrainbow/json-schema": "^5.2.11",
@@ -14234,11 +14238,11 @@
                 "symfony/process": "^5.4 || ^6.0 || ^7"
             },
             "require-dev": {
-                "phpstan/phpstan": "^1.9.3",
-                "phpstan/phpstan-deprecation-rules": "^1",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1",
-                "phpstan/phpstan-symfony": "^1.2.10",
+                "phpstan/phpstan": "^1.11.0",
+                "phpstan/phpstan-deprecation-rules": "^1.2.0",
+                "phpstan/phpstan-phpunit": "^1.4.0",
+                "phpstan/phpstan-strict-rules": "^1.6.0",
+                "phpstan/phpstan-symfony": "^1.4.0",
                 "symfony/phpunit-bridge": "^6.4.1 || ^7.0.1"
             },
             "suggest": {
@@ -14292,7 +14296,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.7.6"
+                "source": "https://github.com/composer/composer/tree/2.7.7"
             },
             "funding": [
                 {
@@ -14308,7 +14312,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-04T21:03:15+00:00"
+            "time": "2024-06-10T20:11:12+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -15167,16 +15171,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.11.1",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "7284c22080590fb39f2ffa3e9057f10a4ddd0e0c"
+                "reference": "3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/7284c22080590fb39f2ffa3e9057f10a4ddd0e0c",
-                "reference": "7284c22080590fb39f2ffa3e9057f10a4ddd0e0c",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c",
+                "reference": "3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c",
                 "shasum": ""
             },
             "require": {
@@ -15184,11 +15188,12 @@
             },
             "conflict": {
                 "doctrine/collections": "<1.6.8",
-                "doctrine/common": "<2.13.3 || >=3,<3.2.2"
+                "doctrine/common": "<2.13.3 || >=3 <3.2.2"
             },
             "require-dev": {
                 "doctrine/collections": "^1.6.8",
                 "doctrine/common": "^2.13.3 || ^3.2.2",
+                "phpspec/prophecy": "^1.10",
                 "phpunit/phpunit": "^7.5.20 || ^8.5.23 || ^9.5.13"
             },
             "type": "library",
@@ -15214,7 +15219,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.11.1"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.12.0"
             },
             "funding": [
                 {
@@ -15222,7 +15227,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-08T13:26:56+00:00"
+            "time": "2024-06-12T14:39:25+00:00"
         },
         {
             "name": "open-telemetry/api",
@@ -16285,20 +16290,20 @@
         },
         {
             "name": "phpstan/extension-installer",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/extension-installer.git",
-                "reference": "5b19a72c93e79bb0d410ac2cd55f02c4a6e0cfbe"
+                "reference": "f6b87faf9fc7978eab2f7919a8760bc9f58f9203"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/extension-installer/zipball/5b19a72c93e79bb0d410ac2cd55f02c4a6e0cfbe",
-                "reference": "5b19a72c93e79bb0d410ac2cd55f02c4a6e0cfbe",
+                "url": "https://api.github.com/repos/phpstan/extension-installer/zipball/f6b87faf9fc7978eab2f7919a8760bc9f58f9203",
+                "reference": "f6b87faf9fc7978eab2f7919a8760bc9f58f9203",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^2.6.0",
+                "composer-plugin-api": "^2.0",
                 "php": "^7.2 || ^8.0",
                 "phpstan/phpstan": "^1.9.0"
             },
@@ -16323,9 +16328,9 @@
             "description": "Composer plugin for automatic installation of PHPStan extensions",
             "support": {
                 "issues": "https://github.com/phpstan/extension-installer/issues",
-                "source": "https://github.com/phpstan/extension-installer/tree/1.4.0"
+                "source": "https://github.com/phpstan/extension-installer/tree/1.4.1"
             },
-            "time": "2024-06-06T11:26:29+00:00"
+            "time": "2024-06-10T08:20:49+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
