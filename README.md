@@ -1,14 +1,20 @@
 # NodeHive Headless CMS CE
 
-[<img src="https://netnode.nodehive.app/sites/default/files/2024-05/nodehive_spaces.png" style="max-width:800px">](https://www.nodehive.com)
-
 ## What is NodeHive Headless CMS?
 
 NodeHive Headless CMS is a headless composable platform that serves as your central commerce, marketing, communication and customer engagement hub. NodeHive is built on top of the wide spread [Drupal CMS](https://www.drupal.org) and extends Drupal with advanced headless features.
 
+[<img src="/features.png" style="max-width:800px;border: 2px solid #8EBAB6">](https://www.nodehive.com)
+
 This repository is the offical NodeHive Headless CMS Community Edition. The makers of NodeHive also offer [a paid SaaS version of NodeHive Headless CMS](https://www.nodehive.com/saas-pricing) as well as enterprise support.
 
-
+## Benefits
+- Easily manage all your websites from one place
+- Editing content is simple and fast
+- Customize your structured content just the way you want it
+- Plan out your content ahead of time
+- Make sure your content goes live at the right time
+- ... and much more
 
 ## Features
 - One backend, multiple websites
@@ -17,6 +23,8 @@ This repository is the offical NodeHive Headless CMS Community Edition. The make
 - Paul AI
 - Dashboards
 - Content Calendar
+- RAG / AI Chat (SaaS and enterprise only)
+- Content Projects (SaaS and enterprise only)
 - ... and much more
 
 ## Important links:
@@ -27,7 +35,7 @@ This repository is the offical NodeHive Headless CMS Community Edition. The make
 
 ## Installation
 
-### Install using DDEV
+### Install with DDEV
 
 Prerequisite: DDEV installed (https://ddev.readthedocs.io/en/stable/)
 
@@ -39,7 +47,7 @@ ddev install-nodehive-ce
 ```
 Your site is now available at https://nodehive-ce.ddev.site
 
-### Manual installation
+### Install with composer directly
 
 Prerequisite: A working LAMP stack
 
@@ -52,4 +60,3 @@ Adjust the `settings.php` so that Drupal can be installed [Drupal Docs](https://
 ```
 composer install-nodehive-ce
 ```
-Site should now be set-up correctly, you can access it via configured local url in your LAMP stack.

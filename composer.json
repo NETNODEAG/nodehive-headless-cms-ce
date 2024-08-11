@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "ext-curl": "*",
         "ext-gd": "*",
         "ext-json": "*",
@@ -98,7 +98,7 @@
         "drupal/webform": "^6.2@beta",
         "drupal/webform_rest": "^4.0",
         "drupal/yaml_content": "^1.0@alpha",
-        "drush/drush": "^12"
+        "drush/drush": "^13"
     },
     "require-dev": {
         "brainmaestro/composer-git-hooks": "^3.0@alpha",
@@ -142,11 +142,6 @@
         },
         "enable-patching": true,
         "composer-exit-on-patch-failure": false,
-        "patches": {
-            "drupal/decoupled_router": {
-                "https://www.drupal.org/project/decoupled_router/issues/3291786": "https://www.drupal.org/files/issues/2022-06-21/3291786-1.patch"
-            }
-        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
