@@ -38,7 +38,7 @@ jobs:
           repository: NETNODEAG/nodehive-headless-cms-ce
 
       - name: Setup PHP, with composer and extensions
-        uses: shivammathur/setup-php@v4
+        uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-versions }}
           coverage: none
