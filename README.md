@@ -43,7 +43,10 @@ Prerequisite: DDEV installed (https://ddev.readthedocs.io/en/stable/)
 git clone https://github.com/NETNODEAG/nodehive-headless-cms-ce
 cd nodehive-headless-cms-ce
 ddev start
-ddev install-nodehive-ce
+ddev composer install-nodehive-ce
+
+# Update
+ddev composer update-nodehive-ce
 ```
 Your site is now available at https://nodehive-ce.ddev.site
 
